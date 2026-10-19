@@ -15,11 +15,11 @@ import {
 import NextLink from "next/link";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
+import { Section } from "@/components/section";
 
 export default function Home() {
   return (
     <Container maxW="container.md" pt={14}>
-      {/* Aqui é onde o Cachorro 3D vai entrar depois */}
       <Box mb={6} p={3} textAlign="center" bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} css={{ backdropFilter: "blur(10px)" }} borderRadius="lg">
         Olá, eu sou um desenvolvedor apaixonado por tecnologia.
       </Box>
@@ -45,7 +45,7 @@ export default function Home() {
       </Box>
 
       {/* Secção Work */}
-      <Box delay={0.1} as="section" mt={8}>
+      <Section delay={0.1} mt={8}>
         <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness="4px" mb={4}>
           Work
         </Heading>
@@ -59,10 +59,10 @@ export default function Home() {
             </Button>
           </NextLink>
         </Box>
-      </Box>
+      </Section>
 
       {/* Secção Bio */}
-      <Box delay={0.2} as="section" mt={8}>
+      <Section delay={0.2} mt={8}>
         <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness="4px" mb={4}>
           Bio
         </Heading>
@@ -74,7 +74,6 @@ export default function Home() {
           <Box>Nasceu no Rio Grande Do Sul.</Box>
         </Box>
 
-        {/* Bloco de 2024 */}
         <Box display="flex" mb={2}>
           <Box as="span" fontWeight="bold" mr={4} minW="50px">
             2024
@@ -82,7 +81,6 @@ export default function Home() {
           <Box> Formação no projeto Desenvolve do Grupo Boticário (JavaScript full-stack, Banco de dados SQL e Docker).</Box>
         </Box>
 
-        {/* Bloco de 2025 */}
         <Box display="flex" mb={2}>
           <Box as="span" fontWeight="bold" mr={4} minW="50px">
             2025
@@ -96,20 +94,20 @@ export default function Home() {
           </Box>
           <Box> Formação no Bootcamp do Santander (Java e I.A) e Previsão de formatura no bacharelado em Ciência da Computação.</Box>
         </Box>
-      </Box>
+      </Section>
 
       {/* Secção Hobbies (I ♥) */}
-      <Box delay={0.3} as="section" mt={8}>
+      <Section delay={0.3} mt={8}>
         <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness="4px" mb={4}>
           I ♥
         </Heading>
         <p>
           Arte, Música, Jogos, Pixel Art, Animes, Aprendizagem Contínua.
         </p>
-      </Box>
+      </Section>
 
       {/* Secção On the web */}
-      <Box delay={0.3} as="section" mt={8} mb={10}>
+      <Section delay={0.3} mt={8} mb={10}>
         <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness="4px" mb={4}>
           On the web
         </Heading>
@@ -127,9 +125,6 @@ export default function Home() {
           </ListItem>
 
           <ListItem>
-
-          </ListItem>
-          <ListItem>
             <Link href="https://www.linkedin.com/in/marcelovareladev" target="_blank">
               <Button
                 variant="ghost"
@@ -141,7 +136,7 @@ export default function Home() {
             </Link>
           </ListItem>
         </List>
-      </Box>
+      </Section>
     </Container>
   );
 }
