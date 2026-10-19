@@ -24,12 +24,13 @@ export default function Works() {
                 </Section>
 
                 {/* Adicionei um pequeno delay extra (0.2) para o segundo item aparecer logo depois do primeiro */}
-                <Section delay={0.2}>
+                <Section delay={0.1}>
                     <WorkGridItem
-                        id="projeto-javascript"
-                        title="App Full-Stack Para Oboticario"
-                        thumbnail="/images/bothcare.jpg" // Imagem 2
+                        id="projeto-java"
+                        title="App de Filmes"
+                        thumbnail="/images/moviesflix.jpg"
                     >
+                        {/* ... */}
                         Projeto desenvolvido no projeto desenvolve do grupo oboticario.
                         Tecnologias Utilizadas
                         Front-end
