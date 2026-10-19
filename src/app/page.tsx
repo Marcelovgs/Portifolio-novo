@@ -73,7 +73,7 @@ export default function Home() {
           <Box as="span" fontWeight="bold" mr={4} minW="50px">
             1995
           </Box>
-          <Box>Nasceu no Rio Grande Do Sul.</Box>
+          <Box>Nascido no Rio Grande Do Sul.</Box>
         </Box>
 
         {/* Bloco de 2024 */}
