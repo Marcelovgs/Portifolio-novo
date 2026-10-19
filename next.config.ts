@@ -5,4 +5,4 @@ const nextConfig = {
   },
 };
 
-export default finalConfig = nextConfig; // ou apenas: export default nextConfig;
+export default nextConfig;
