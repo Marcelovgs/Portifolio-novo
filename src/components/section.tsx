@@ -1,27 +1,26 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { chakra, shouldForwardProp } from "@chakra-ui/react";
+import { motion, isValidMotionProp } from "framer-motion";
 import { ReactNode } from "react";
 
-// Criamos uma versão "animável" da Box (div) do Chakra UI
 const StyledDiv = chakra(motion.div, {
-    shouldForwardProp: (prop) => {
-        return shouldForwardProp(prop) || prop === "transition";
-    },
+    shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop),
 });
 
 interface SectionProps {
     children: ReactNode;
     delay?: number;
+    [key: string]: any; // Permite receber propriedades extras como mt, mb, as
 }
 
-export const Section = ({ children, delay = 0 }: SectionProps) => (
+export const Section = ({ children, delay = 0, ...props }: SectionProps) => (
     <StyledDiv
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: "0.8", delay }}
+        transition={{ duration: 0.8, delay }}
         mb={6}
+        {...props}
     >
         {children}
     </StyledDiv>

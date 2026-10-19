@@ -46,7 +46,7 @@ export default function Home() {
 
       {/* Secção Work */}
       <Box delay={0.1} as="section" mt={8}>
-        <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness={4} mb={4}>
+        <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness="4px" mb={4}>
           Work
         </Heading>
         <p>
@@ -63,7 +63,7 @@ export default function Home() {
 
       {/* Secção Bio */}
       <Box delay={0.2} as="section" mt={8}>
-        <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness={4} mb={4}>
+        <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness="4px" mb={4}>
           Bio
         </Heading>
 
@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* Secção Hobbies (I ♥) */}
       <Box delay={0.3} as="section" mt={8}>
-        <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness={4} mb={4}>
+        <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness="4px" mb={4}>
           I ♥
         </Heading>
         <p>
@@ -110,7 +110,7 @@ export default function Home() {
 
       {/* Secção On the web */}
       <Box delay={0.3} as="section" mt={8} mb={10}>
-        <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness={4} mb={4}>
+        <Heading as="h3" variant="section-title" textDecoration="underline" textUnderlineOffset={6} textDecorationColor="#525252" textDecorationThickness="4px" mb={4}>
           On the web
         </Heading>
         <List>
