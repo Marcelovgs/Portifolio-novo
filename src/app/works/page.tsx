@@ -17,7 +17,7 @@ export default function Works() {
                     <WorkGridItem
                         id="projeto-java"
                         title="App de Filmes"
-                        thumbnail="/images/moviesflix.jpg" // Imagem 1
+                        thumbnail="Portifolio-novo/images/moviesflix.jpg" // Imagem 1
                     >
                         Aplicação construída com React, que consome a API do TMDB para apresentar dados de filmes. Foram utilizados hooks e React Router para gerenciar a navegação, com o Vite configurado para oferecer um ambiente de desenvolvimento mais rápido e eficiente..
                     </WorkGridItem>
@@ -28,7 +28,7 @@ export default function Works() {
                     <WorkGridItem
                         id="projeto-javascript"
                         title="App Full-Stack Para Oboticario"
-                        thumbnail="/images/bothcare.jpg" // Imagem 2
+                        thumbnail="/Portifolio-novo/images/bothcare.jpg" // Imagem 2
                     >
                         Projeto desenvolvido no projeto desenvolve do grupo oboticario.
                         Tecnologias Utilizadas
@@ -51,7 +51,7 @@ export default function Works() {
                     <WorkGridItem
                         id="projeto-javascript"
                         title="Previsao do tempo"
-                        thumbnail="/images/previsaodotempo.jpg" // Imagem 2
+                        thumbnail="/Portifolio-novo/images/previsaodotempo.jpg" // Imagem 2
                     >
                         Este é um projeto de site de previsão do tempo desenvolvido em React. O objetivo deste projeto é servir como um estudo prático para aprender e aplicar os conceitos de desenvolvimento front-end com React e consumo de api. O aplicativo permite aos usuários consultar as condições climáticas atuais de diferentes localidades.
                     </WorkGridItem>
