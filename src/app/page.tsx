@@ -34,7 +34,7 @@ export default function Home() {
         <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} textAlign="center">
           <Box borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" w="100px" h="100px" display="inline-block" borderRadius="full" overflow="hidden">
             <Image
-              src="/Portifolio-novo/images/marcelo.jpg"
+              src="/images/marcelo.jpg"
               alt="Imagem de Perfil"
               width="100%"
               height="100%"
