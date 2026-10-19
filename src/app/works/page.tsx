@@ -17,7 +17,7 @@ export default function Works() {
                     <WorkGridItem
                         id="projeto-java"
                         title="App de Filmes"
-                        thumbnail="Portifolio-novo/images/moviesflix.jpg" // Imagem 1
+                        thumbnail="/Portifolio-novo/images/moviesflix.jpg" // Imagem 1
                     >
                         Aplicação construída com React, que consome a API do TMDB para apresentar dados de filmes. Foram utilizados hooks e React Router para gerenciar a navegação, com o Vite configurado para oferecer um ambiente de desenvolvimento mais rápido e eficiente..
                     </WorkGridItem>
