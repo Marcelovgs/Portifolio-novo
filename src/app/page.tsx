@@ -69,9 +69,9 @@ export default function Home() {
 
         <Box display="flex" mb={2}>
           <Box as="span" fontWeight="bold" mr={4} minW="50px">
-            2000
+            1995
           </Box>
-          <Box>Nasceu no Brasil.</Box>
+          <Box>Nasceu no Rio Grande Do Sul.</Box>
         </Box>
 
         {/* Bloco de 2024 */}

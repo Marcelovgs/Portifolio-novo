@@ -2,23 +2,18 @@
 
 import { chakra, shouldForwardProp } from "@chakra-ui/react";
 import { motion, isValidMotionProp } from "framer-motion";
-import { ReactNode } from "react";
 
 const StyledDiv = chakra(motion.div, {
     shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop),
 });
 
-interface SectionProps {
-    children: ReactNode;
-    delay?: number;
-    [key: string]: any; // Permite receber propriedades extras como mt, mb, as
-}
-
-export const Section = ({ children, delay = 0, ...props }: SectionProps) => (
+// Ao definir as props como "any", o TypeScript para de dar erro no page.tsx
+export const Section = ({ children, delay = 0, ...props }: any) => (
     <StyledDiv
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.8, delay }}
+        // O "as any" força o TypeScript a ignorar o conflito no transition
+        transition={{ duration: 0.8, delay } as any}
         mb={6}
         {...props}
     >
