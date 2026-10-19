@@ -17,13 +17,13 @@ export default function Posts() {
                     <PostGridItem
                         title="Projeto que eu desenvolvi que me gerou 16 Mil reais, agora o servidor fechou."
                         thumbnail="/images/linkedin.jpg" // print do post do LinkedIn aqui
-                        href="https://lnkd.in/p/dNU3Tr8F" // Coloque o link real do post aqui
+                        href="https://lnkd.in/p/dNU3Tr8F" //link real do post aqui
                     />
                     {/*
                     <PostGridItem
                         title="Concluindo o bootcamp do Santander!"
-                        thumbnail="/images/placeholder.jpg" // Coloque o print do post do LinkedIn aqui
-                        href="https://lnkd.in/p/dNU3Tr8F" // Coloque o link real do post aqui
+                        thumbnail="/images/placeholder.jpg" 
+                        href="https://lnkd.in/p/dNU3Tr8F" 
                     />
                 </SimpleGrid>
             </Section>
@@ -32,13 +32,13 @@ export default function Posts() {
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <PostGridItem
                         title="Certificação Oracle Next Education"
-                        thumbnail="/images/placeholder.jpg" // Coloque o print do post do LinkedIn aqui
-                        href="https://linkedin.com/in/marcelovgs/..." // Coloque o link real do post aqui
+                        thumbnail="/images/placeholder.jpg" // 
+                        href="https://linkedin.com/in/marcelovgs/..." 
                     />
                     <PostGridItem
                         title="Estudando novas tecnologias Java"
-                        thumbnail="/images/placeholder.jpg" // Coloque o print do post do LinkedIn aqui
-                        href="https://linkedin.com/in/marcelovgs/..." // Coloque o link real do post aqui
+                        thumbnail="/images/placeholder.jpg" // 
+                        href="https://linkedin.com/in/marcelovgs/..." 
                     />
                     */}
                 </SimpleGrid>

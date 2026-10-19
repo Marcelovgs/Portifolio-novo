@@ -12,7 +12,7 @@ export default function Works() {
             </Heading>
 
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                {/* Envolvemos o projeto com a Section */}
+                {/* Envolvi o projeto com a Section */}
                 <Section delay={0.1}>
                     <WorkGridItem
                         id="projeto-java"
