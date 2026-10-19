@@ -27,8 +27,8 @@ export default function Works() {
                 <Section delay={0.1}>
                     <WorkGridItem
                         id="projeto-java"
-                        title="App de Filmes"
-                        thumbnail="/images/moviesflix.jpg"
+                        title="Projeto Final do projeto desensolve Oboticario."
+                        thumbnail="/images/bothcare.jpg"
                     >
                         {/* ... */}
                         Projeto desenvolvido no projeto desenvolve do grupo oboticario.
