@@ -12,49 +12,46 @@ export default function Works() {
             </Heading>
 
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                {/* Envolvi o projeto com a Section */}
                 <Section delay={0.1}>
                     <WorkGridItem
-                        id="projeto-java"
+                        href="https://github.com/Marcelovgs/MoviesFlix"
                         title="App de Filmes"
-                        thumbnail="/images/moviesflix.jpg" // Imagem 1
+                        thumbnail="/images/moviesflix.jpg"
                     >
-                        Aplicação construída com React, que consome a API do TMDB para apresentar dados de filmes. Foram utilizados hooks e React Router para gerenciar a navegação, com o Vite configurado para oferecer um ambiente de desenvolvimento mais rápido e eficiente..
+                        Aplicação construída com React, que consome a API do TMDB para apresentar dados de filmes. Foram utilizados hooks e React Router para gerenciar a navegação, com o Vite configurado para oferecer um ambiente de desenvolvimento mais rápido e eficiente.
                     </WorkGridItem>
                 </Section>
 
-                {/* Adicionei um pequeno delay extra (0.2) para o segundo item aparecer logo depois do primeiro */}
                 <Section delay={0.1}>
                     <WorkGridItem
-                        id="projeto-java"
+                        href="https://github.com/Marcelovgs/Projeto-Completo-Consumindo-API"
                         title="Projeto Final do projeto desensolve Oboticario."
                         thumbnail="/images/bothcare.jpg"
                     >
-                        {/* ... */}
                         Projeto desenvolvido no projeto desenvolve do grupo oboticario.
-                        Tecnologias Utilizadas
-                        Front-end
-                        HTML5
-                        CSS3
-                        JavaScript (ES6+)
-                        Swiper.js: Biblioteca para criação de sliders e carrosséis interativos
-
-                        Back-end
-                        Node.js
-                        Express.js
-                        MongoDB
-                        Mongoose
+                        Tecnologias Utilizadas: HTML5, CSS3, JavaScript (ES6+), Swiper.js, Node.js, Express.js, MongoDB, Mongoose.
                     </WorkGridItem>
                 </Section>
 
-                {/* Pode adicionar um terceiro projeto aqui, usando <Section delay={0.3}> */}
                 <Section delay={0.2}>
                     <WorkGridItem
-                        id="projeto-javascript"
+                        href="https://github.com/Marcelovgs/PrevisaoDoTempo"
                         title="Previsao do tempo"
-                        thumbnail="/images/previsaodotempo.jpg" // Imagem 2
+                        thumbnail="/images/previsaodotempo.jpg"
                     >
-                        Este é um projeto de site de previsão do tempo desenvolvido em React. O objetivo deste projeto é servir como um estudo prático para aprender e aplicar os conceitos de desenvolvimento front-end com React e consumo de api. O aplicativo permite aos usuários consultar as condições climáticas atuais de diferentes localidades.
+                        Este é um projeto de site de previsão do tempo desenvolvido em React. O objetivo deste projeto é servir como um estudo prático para aprender e aplicar os conceitos de desenvolvimento front-end com React e consumo de api.
+                    </WorkGridItem>
+                </Section>
+
+                <Section delay={0.3}>
+                    <WorkGridItem
+                        href="https://github.com/Marcelovgs/SGCI"
+                        title="Sistema de Chamados com banco de dados e JWT"
+                        thumbnail="/images/Screenshot_1.png"
+                    >
+                        O SGCI é uma aplicação full-stack que simula um sistema de gerenciamento de chamados de manutenção para ambientes industriais. A plataforma permite que diferentes tipos de usuários interajam com o sistema para abrir e gerenciar ordens de serviço.
+
+                        Spring Boot 3, Spring Web, Spring Data JPA, Spring Security, JWT, Maven, Hibernate, Lombok, React 19, Vite, Tailwind CSS, Axios, PostgreSQL.
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
